@@ -1,2 +1,7 @@
 # anonymou-mode
-emacs lisp package for sample and template.
+
+Identation-based major mode for `.anon` files.
+
+## install
+
+### package.el (local)
