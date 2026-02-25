@@ -19,6 +19,15 @@ M-x package-install RET /path/to/anonymous-mode.el
   :custom (anonymous-indent-offset 4))
 ```
 
+### use-package (emacs >= 30 or + vc-use-package)
+
+```elisp
+(use-package anonymous-mode
+  :vc (:url "https://github.com/tateishi/anonymous-mode/" :rev :newest)
+  :mode "\\.anon\\'"
+  :custom (anonymous-indent-offset 4))
+```
+
 ## Usage
 
 Open a .anon file and start editing.  Identation is block-based.
