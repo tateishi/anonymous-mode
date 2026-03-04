@@ -2,8 +2,6 @@
 
 Identation-based major mode for `.anon` files.
 
-this is test line.
-
 ## install
 
 ### package.el (local)
